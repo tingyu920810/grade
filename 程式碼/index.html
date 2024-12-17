@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI學生成績分析</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI學生成績分析</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h2>請輸入學生成績（100分制）</h2>
+            <form id="gradeForm">
+                <label for="grade">成績：</label>
+                <input type="number" id="grade" name="grade" min="0" max="100" required>
+                <button type="submit">提交</button>
+            </form>
+            
+            <div id="result" class="result">
+                <!-- 結果會顯示在這裡 -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>? 2024 AI學生成績分析網站</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
